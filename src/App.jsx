@@ -28,6 +28,7 @@ function App() {
       <Toaster richColors />
       <Header />
       <CopyToClipboard text="http://template.cherrydub.com" />
+      <br />
       <Body />
 
       <br />
