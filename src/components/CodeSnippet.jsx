@@ -1,6 +1,6 @@
 import React from "react";
-import CopyToClipboardButton from "./CopyToClipboardButton";
-import CopyToClipboard from "./CopyToClipBoard";
+// import CopyToClipboardButton from "./CopyToClipboardButton";
+import CopyToClipboard from "./CopyToClipboard";
 
 export default function CodeSnippet({ title, instructions, code }) {
   return (
