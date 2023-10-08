@@ -3,7 +3,8 @@ import { Toaster, toast } from "sonner";
 import tailwindcss from "/tailwindcss.svg";
 import reactLogo from "../assets/react.svg";
 import viteLogo from "/vite.svg";
-import gremlinLogo2 from "/gremlin2.png";
+import gremlinLogo from "/gremlin.svg";
+
 import axiosLogo from "/axiosLogo.svg";
 import cherrycherries from "/cherry-cherries.svg";
 
@@ -16,12 +17,7 @@ export default function Body() {
             <img src={cherrycherries} className="logo" alt="Cherrydub logo" />
           </a>
           <a href="https://gitgremlin.com" target="_blank">
-            <img
-              style={{ width: "auto", height: "100px" }}
-              src={gremlinLogo2}
-              className="logo"
-              alt="GitGremlin logo"
-            />
+            <img src={gremlinLogo} className="logo" alt="GitGremlin logo" />
           </a>
           <a href="https://vitejs.dev" target="_blank">
             <img src={viteLogo} className="logo" alt="Vite logo" />
