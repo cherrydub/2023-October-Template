@@ -5,7 +5,7 @@ import reactLogo from "../assets/react.svg";
 import viteLogo from "/vite.svg";
 import gremlinLogo from "/gremlin.svg";
 
-import axiosLogo from "/axiosLogo.svg";
+import axiosLogo from "/axios.svg";
 import cherrycherries from "/cherry-cherries.svg";
 
 export default function Body() {
@@ -29,11 +29,11 @@ export default function Body() {
           <a href="https://tailwindcss.com/" target="_blank">
             <img src={tailwindcss} className="logo" alt="TailwindCSS logo" />
           </a>
-        </div>
-        <div className="flex justify-center">
           <a href="https://axios-http.com/" target="_blank">
             <img
-              style={{ width: "200px" }}
+              // style={{ width: "200px", marginTop: "-40px" }}
+              // style={{ height: "100px" }}
+              style={{ borderRadius: "30%" }}
               src={axiosLogo}
               className="logo"
               alt="Axios logo"
