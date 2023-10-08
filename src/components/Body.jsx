@@ -9,7 +9,7 @@ import cherrycherries from "/cherry-cherries.svg";
 
 export default function Body() {
   return (
-    <div>
+    <div className="body">
       <div className="flex flex-col">
         <div className="flex justify-center">
           <a href="https://cherrydub.com" target="_blank">

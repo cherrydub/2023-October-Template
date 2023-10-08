@@ -10,6 +10,7 @@ import Body from "./components/Body";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
+import CopyToClipboard from "./components/CopyToClipboard";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,11 +19,17 @@ function App() {
     toast.success("Congrats on finding this!");
   }, []);
 
+  if (count > 10) {
+    toast("Someone sure likes clicking");
+  }
+
   return (
     <BrowserRouter>
       <Toaster richColors />
       <Header />
+      <CopyToClipboard text="http://template.cherrydub.com" />
       <Body />
+
       <br />
       <div className="flex justify-center">
         <div className="scrollable-container ">
