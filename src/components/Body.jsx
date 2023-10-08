@@ -16,7 +16,12 @@ export default function Body() {
             <img src={cherrycherries} className="logo" alt="Cherrydub logo" />
           </a>
           <a href="https://gitgremlin.com" target="_blank">
-            <img src={gremlinLogo2} className="logo" alt="GitGremlin logo" />
+            <img
+              style={{ width: "auto", height: "100px" }}
+              src={gremlinLogo2}
+              className="logo"
+              alt="GitGremlin logo"
+            />
           </a>
           <a href="https://vitejs.dev" target="_blank">
             <img src={viteLogo} className="logo" alt="Vite logo" />
