@@ -23,6 +23,10 @@
   /* border: 1px solid white; */
 }
 
+.template-logos img {
+  /* border: 1px solid red; */
+}
+
 .instructions-inner {
   max-width: 500px;
 }
