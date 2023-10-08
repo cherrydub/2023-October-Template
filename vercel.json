@@ -1,9 +1,3 @@
 {
-  "version": 2,
-  "routes": [
-    { "src": "/info", "dest": "/public/index.html" },
-    { "src": "/about", "dest": "/public/index.html" },
-    { "src": "/contact", "dest": "/public/index.html" },
-    { "src": "/.*", "dest": "/public/index.html" }
-  ]
+  "routes": [{ "src": "/[^.]+", "dest": "/", "status": 200 }]
 }
