@@ -5,7 +5,7 @@ import reactLogo from "../assets/react.svg";
 import viteLogo from "/vite.svg";
 import gremlinLogo from "/gremlin.svg";
 
-import axiosLogo from "/axios.svg";
+import axiosLogo from "/Axios-logo.svg";
 import cherrycherries from "/cherry-cherries.svg";
 
 export default function Body() {
