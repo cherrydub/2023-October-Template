@@ -35,7 +35,7 @@
 
 /* App.css or a separate CSS file */
 .scrollable-container {
-  height: 400px; /* Adjust the height as needed */
+  height: 50vh; /* Adjust the height as needed */
   padding: 15px;
   background-color: black;
   width: 100vw;
